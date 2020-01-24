@@ -14,6 +14,7 @@
     <title>LAMV Site</title>
   </head>
   <body>
+      <!--NAVBAR--->
     <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
         <a class="navbar-brand font-weight-bold" href="#">LAMV</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,8 +35,9 @@
     <div class="container">
         @yield('seccion')
     </div>
-
-    <footer class="page-footer font-small teal pt-4 my-5">
+    
+    <!--FOOTER--->
+    <footer class="page-footer font-small teal pt-4">
     <div class="container-fluid text-center text-md-left">
       <div class="row">
         <div class="col-md-6 mt-md-0 mt-3">
@@ -57,7 +59,6 @@
         <a href="{{route('inicio')}}"> Luis Martínez</a>
     </div>
     </footer>
-  <!-- Footer -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
