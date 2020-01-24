@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/inicio', 'PageController@inicio')->name('inicio');
+
+Route::get('/aboutme', 'PageController@sobremi')->name('sobremi');

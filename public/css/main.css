@@ -1,0 +1,9 @@
+nav > a{
+    font-size: medium;
+    color: white;
+}
+
+.navbar-custom {
+    background-color: rgb(59, 141, 247);
+    color: white;
+}
