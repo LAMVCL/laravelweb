@@ -16,7 +16,8 @@
   <body>
       <!--NAVBAR--->
     <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
-        <a class="navbar-brand font-weight-bold" href="#">LAMV</a>
+        <img src="{{URL::asset('img/logo.png')}}">
+        <a class="navbar-brand font-weight-bold" href="{{route('inicio')}}">LAMV</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
