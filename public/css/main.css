@@ -10,11 +10,17 @@ nav > a{
     color: white;
 }
 
+.footerlink{
+    bottom: auto;
+}
 .page-footer{
-    background-color: rgb(11, 160, 160);
+    background-color: rgb(0, 153, 224);
     color: white;
 }
 
+.footer-copyright{
+    background-color: rgb(0, 105, 167);
+}
 
 footer{
     position: fixed;
@@ -23,9 +29,7 @@ footer{
     background-color: #333;
     color:#fff;
 }
-.footer-copyright{
-    background-color: teal;
-}
+
 
 .video-container {
     display: block;
