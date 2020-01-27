@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/inicio', 'PageController@inicio')->name('inicio');
+Route::get('/', 'PageController@inicio')->name('inicio');
 
 Route::get('/aboutme', 'PageController@sobremi')->name('sobremi');
